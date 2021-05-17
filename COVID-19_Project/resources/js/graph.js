@@ -9,7 +9,7 @@ const new_deaths_element = document.querySelector(".deaths .new-value");
 
 const ctx = document.getElementById("axes_line_chart").getContext("2d");
 
-// APP VARIABLES
+// VARIABLES
 let app_data = [],
   cases_list = [],
   recovered_list = [],
@@ -126,7 +126,7 @@ function updateStats() {
   });
 }
 
-// UPDATE CHART
+// UPDATE CHART FROM chartjs.org
 let my_chart;
 function axesLinearChart() {
   if (my_chart) {
