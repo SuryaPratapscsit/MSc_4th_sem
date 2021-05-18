@@ -134,7 +134,7 @@ function axesLinearChart() {
   }
 
   my_chart = new Chart(ctx, {
-    type: "line",
+    type: "bar",
     data: {
       datasets: [
         {
